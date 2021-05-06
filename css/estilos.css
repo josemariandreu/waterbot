@@ -14,7 +14,9 @@ header{
 	color:#24363b;
 }
 
-
+.logo{
+	width:30px!important;
+}
 .altura{
 	height:  70px;
 }
