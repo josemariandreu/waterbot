@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	font-family-sans-serif: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.fondo {
+	background-color:#24363b;
+}
+a{
+	color: #e7eec4!important;
+}
+header{
+	color:#24363b;
+}
+
+
+.altura{
+	height:  70px;
+}
+.mano{
+	
+  /* The image used */
+  background-image: url("../img/fondo.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body, html {
+  height: 100%;
+}

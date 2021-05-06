@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	font-family: futura;
+}
+html{
+	background: url("img/pexels-ylanite-koppens-1445416.jpg");
+}
+.logo{
+	width:70px!important;
+	filter: invert();
+}
+.fondo{
+	background-color:black!important;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#foto0{
+	background-image: url("../img/basket.jpg");
+	 filter: grayscale(100%);
+}
+#foto1{
+	background-image: url("../img/atletismo.jpg");
+	filter: grayscale(100%);
+}
+#foto2{
+	background-image: url("../img/boxeo.jpg");
+	filter: grayscale(100%);
+}
+.altura{
+	height:  70px;
+}
