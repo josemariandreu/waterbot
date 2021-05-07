@@ -6,6 +6,15 @@
 
 .fondo {
 	background-color:#24363b;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body, html {
+  height: 100%;
+}
+.fondo2{
+background: rgb(231,238,196);
+background: linear-gradient(0deg, rgba(231,238,196,1) 93%, rgba(210,215,185,1) 100%);
+	
 }
 a{
 	color: #e7eec4!important;
@@ -14,9 +23,7 @@ header{
 	color:#24363b;
 }
 
-.logo{
-	width:30px!important;
-}
+
 .altura{
 	height:  70px;
 }
@@ -32,7 +39,5 @@ header{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-body, html {
-  height: 100%;
+	
 }
