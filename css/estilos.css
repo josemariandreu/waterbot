@@ -4,12 +4,13 @@
 	font-family-sans-serif: "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+
 .fondo {
 	background-color:#24363b;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 body, html {
-  height: 100%;
+  min-height: 100%;
 }
 .fondo2{
 background: rgb(231,238,196);
@@ -27,17 +28,32 @@ header{
 .altura{
 	height:  70px;
 }
-.mano{
+#first{
 	
   /* The image used */
   background-image: url("../img/suculenta.jpg");
+  background-color:#fdfcf7;
 
   /* Full height */
-  height: 100%; 
+  min-height:650px; 
 
   /* Center and scale the image nicely */
-  background-position: center;
+  background-position: left bottom;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 	
+}
+
+@media (min-width:1180px){
+    #first{
+        padding-top:30vh;
+    }
+    #movil{
+        position:absolute;
+        right:0;
+        top:0;
+    }
+    .relative{
+        position:relative;
+    }
 }
