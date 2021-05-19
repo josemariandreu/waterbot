@@ -12,11 +12,23 @@
 body, html {
   min-height: 100%;
 }
-.fondo2{
+.sec2{
 background: rgb(231,238,196);
 background: linear-gradient(0deg, rgba(231,238,196,1) 93%, rgba(210,215,185,1) 100%);
 	
 }
+.sec3{
+    background: rgb(231,238,196);
+    border:none;
+}
+.sec4{
+    background-image: url(../img/logo%20app@2xclaro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: -15%;
+    margin-bottom:2em;
+}
+
 a{
 	color: #e7eec4!important;
 }
@@ -43,6 +55,52 @@ header{
   background-size: contain;
 	
 }
+.block{
+    margin:6em 0;
+}
+.card{
+    border:none;
+    background-color:rgba(0,0,0,0)!important;
+    margin-bottom:4em!important;
+}
+.card-title{
+    text-align:center;
+    font-weight:600;
+    font-size:1.8em;
+    padding-bottom:0.5em;
+    border-bottom:solid 1px black;
+}
+#logo{
+    padding-top:2em;
+}
+#nikola{
+    width:80%;
+}
+#severin{
+width:80%;
+}
+
+.valoration{
+    margin-bottom:5em;
+}
+
+
+#val-1{
+    background-image:url(../img/head-valor.jpg);
+    background-size:cover;
+    background-position:left;
+    background-repeat:no-repeat;
+    padding-top:100px;
+    padding-bottom:180px;
+}
+
+#redes{
+    padding:2em;
+}
+#redes img{
+    width:20%;
+    padding-left:20px;
+}
 
 @media (min-width:1180px){
     #first{
@@ -55,5 +113,23 @@ header{
     }
     .relative{
         position:relative;
+    }
+    #logo{
+        position:absolute;
+        bottom:0;
+    }
+    .card{
+        padding:0 3em;
+    }
+    .sec3{
+        background: linear-gradient(rgb(231,238,196) 30%, white 30%);
+    }
+}
+@media (min-width:768px){
+    .about-second{
+        margin-top:-3rem!important
+    }
+    #block-up{
+        margin-top:-4em;
     }
 }
